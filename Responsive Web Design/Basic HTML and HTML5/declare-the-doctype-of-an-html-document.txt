@@ -1,0 +1,9 @@
+<!---tells browser what version of html, html specifies HTML5--->
+<!DOCTYPE html>
+
+<!---wrap html code w/ html tags--->
+<html>
+
+  <h1> Hello </h1>
+
+  </html>
