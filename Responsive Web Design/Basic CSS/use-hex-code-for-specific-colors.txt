@@ -1,0 +1,7 @@
+<!---CSS can use hex codes to represent colors--->
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

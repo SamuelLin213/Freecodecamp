@@ -1,0 +1,7 @@
+<!---rgb values can also be used to represent colors; each value represents how bright each rgb color is--->
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

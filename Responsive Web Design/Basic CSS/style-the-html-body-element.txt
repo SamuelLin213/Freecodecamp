@@ -1,0 +1,9 @@
+<!---
+every HTML page has a body element and can be specified in the style element
+--->
+
+<style>
+  body{
+    background-color: black;
+  }
+</style>

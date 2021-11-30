@@ -1,0 +1,16 @@
+<!---class styles can be overriden: the later declaration will have higher precedence; in this case blue-text takes higher precedence than pink-text since it comes later--->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

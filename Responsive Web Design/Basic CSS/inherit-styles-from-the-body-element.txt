@@ -1,0 +1,13 @@
+<!---style the body element and all other elemnts will inherit the body's style--->
+
+<style>
+  body {
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>
+  Hello World
+</h1>
