@@ -1,0 +1,11 @@
+<!---pseudo-class: can be added to selectors to select a specific state of element(i.e. hover)--->
+
+<style>
+  a:hover {
+    color: blue;
+  }
+  a{
+    color: black;
+  }
+</style>
+<a href="https://freecatphotoapp.com/" target="_blank">CatPhotoApp</a>
