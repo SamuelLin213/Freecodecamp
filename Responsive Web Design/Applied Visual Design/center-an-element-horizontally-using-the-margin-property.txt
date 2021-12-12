@@ -1,0 +1,11 @@
+<!---center a block element horizontally by setting its margin to auto, this works for images too by changing the display property to block--->
+
+<style>
+  div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+</style>
+<div></div>

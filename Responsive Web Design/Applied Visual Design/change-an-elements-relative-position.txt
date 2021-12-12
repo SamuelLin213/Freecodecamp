@@ -1,0 +1,14 @@
+<!---each HTML element is treated as its own box(CSS box model), block-level items automatically start on a new line while inline items sit within surrounding content, default layout of elements in this way is called "normal flow" but CSS has the "position" property to override it
+  -relative: relative to current position in normal flow of page, pairs w/ offset properties of left/right/top/bottom which tell how many em/pixel/percentage to move away from normal position--->
+
+<style>
+  h2 {
+    position: relative;
+    top: 15px;
+  }
+</style>
+<body>
+  <h1>On Being Well-Positioned</h1>
+  <h2>Move me!</h2>
+  <p>I still think the h2 is where it normally sits.</p>
+</body>

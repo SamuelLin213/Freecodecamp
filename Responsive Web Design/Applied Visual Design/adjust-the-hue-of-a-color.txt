@@ -1,0 +1,32 @@
+<!---CSS introduced hsl() to include hue, saturation and lightness:
+  -hue: 'color', color on spectrum given between angle of 0 and 360
+  -saturation: amount of gray in color, fully saturated has no gray while minimally saturated is almost completely gray
+  -lightness: amount of white/black in color, percentage given from 0%(black) to 100%(white) while 50% is normal color--->
+
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+
+  .green {
+    background-color: hsl(120, 100%, 50%);
+  }
+
+  .cyan {
+    background-color: hsl(180, 100%, 50%);
+  }
+
+  .blue {
+    background-color: hsl(240, 100%, 50%);
+  }
+
+  div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+
+<div class="green"></div>
+<div class="cyan"></div>
+<div class="blue"></div>
