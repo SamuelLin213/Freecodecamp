@@ -1,0 +1,9 @@
+<!---HTML5 introduced elements that incorporated accessibility features(main, footer, header, nav, article, section), main element wraps main content of page and there should only be one of these--->
+
+<header>
+  <h1>Weapons of the Ninja</h1>
+</header>
+<main>
+
+</main>
+<footer></footer>
