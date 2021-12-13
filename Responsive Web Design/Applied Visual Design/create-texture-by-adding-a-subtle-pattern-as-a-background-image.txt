@@ -1,0 +1,7 @@
+<!---background property has the url() function to link image of texture/pattern, link address is wrapped in quotes inside parentheses--->
+
+<style>
+  body {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  }
+</style>

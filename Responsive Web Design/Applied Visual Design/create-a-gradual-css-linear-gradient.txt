@@ -1,0 +1,16 @@
+<!---can use backgroud property's linear-gradient to use a gradient:
+  -background: linear-gradient(gradient_direction, color1, color2, color3, ...)
+    -direction is stated as degree: 90deg makes horizontal gradient and 45deg makes diagonal gradient(from bottom left to top right)--->
+
+<style>
+  div {
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  }
+
+</style>
+
+<div></div>

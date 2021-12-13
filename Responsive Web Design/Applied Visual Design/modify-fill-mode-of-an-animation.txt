@@ -1,0 +1,23 @@
+<!---animation resets after the time frame passes, animation-fill-mode specifies the style to apply to element when animation is done, setting animation-fill-mode to forwards allows the animation to keep the ending color after it's done--->
+
+<style>
+  button {
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    /* Only change code below this line */
+    animation-fill-mode: forwards;
+    /* Only change code above this line */
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
+</style>
+<button>Register</button>
