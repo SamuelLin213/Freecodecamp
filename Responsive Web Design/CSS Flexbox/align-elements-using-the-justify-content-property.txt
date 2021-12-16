@@ -1,0 +1,32 @@
+<!---justify-center allows aligning/spacing out of flex items
+  -center: aligns all flex items to center inside flex container
+  -flex-start: aligns items to start of flex container, pushes item to left of container for row, pushes item to top of container for column, this is default alignment if justify-content isn't specified
+  -flex-end: aligns items to end of flex container, pushes item to right of container for row, pushes item to bottom for column
+  -space-between: aligns items to center of main axis w/ extra space placed between items, first/last items are pushed to very edge of flex container
+  -space-around: similar to space-between but first/last aren't locked to edges of container, space is distributed around all items w/ half space on either end of flex container
+  -space-evenly: distributes space evenly between flex items w/ full space at either end of flex container--->
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
