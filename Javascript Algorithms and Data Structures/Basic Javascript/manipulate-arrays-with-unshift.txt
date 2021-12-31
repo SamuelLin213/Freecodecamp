@@ -1,0 +1,8 @@
+//can also unshift() elements and add elements at the front of array, works like push() but for front
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+myArray.unshift(["Paul", 35]);

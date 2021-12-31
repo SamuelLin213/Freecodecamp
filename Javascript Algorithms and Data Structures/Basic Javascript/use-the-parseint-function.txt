@@ -1,0 +1,7 @@
+//parseInt() parses a string and returns an integer, if first character in string can't be converted to number NaN will be returned
+
+function convertToInteger(str) {
+  return(parseInt(str));
+}
+
+convertToInteger("56");

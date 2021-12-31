@@ -1,0 +1,7 @@
+//a second parameter in parseInt() specifies the radix value, which indicates the base of the number in the string, radix is between 2 and 36
+
+function convertToInteger(str) {
+  return parseInt(str, 2);
+}
+
+convertToInteger("10011");

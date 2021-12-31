@@ -1,0 +1,8 @@
+//to get whole number round by desired highest number and apply Math.floor() to round down
+
+function randomWholeNum() {
+
+  // Only change code below this line
+
+  return Math.floor(Math.random() * 10); //0 <= x < 9
+}

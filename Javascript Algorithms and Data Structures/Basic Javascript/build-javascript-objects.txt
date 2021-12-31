@@ -1,0 +1,10 @@
+/*object properties are stored as strings but you can use numbers as properties*/
+
+const myDog = {
+  // Only change code below this line
+  "name": "Buster",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Bill", "Max"]
+  // Only change code above this line
+};

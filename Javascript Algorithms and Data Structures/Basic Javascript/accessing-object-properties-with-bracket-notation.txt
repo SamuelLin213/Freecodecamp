@@ -1,0 +1,12 @@
+//properties can also be accessed using [], usually for properties with space(s) but can also be used for single word properties
+
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"];   // Change this line
+const drinkValue = testObj["the drink"];    // Change this line

@@ -1,0 +1,10 @@
+//You can add properties to object similar to how you'd modify a property
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "woof";

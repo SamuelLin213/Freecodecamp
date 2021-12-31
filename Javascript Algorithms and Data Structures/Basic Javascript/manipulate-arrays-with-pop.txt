@@ -1,0 +1,6 @@
+//.pop() removes last element from arrayand returns that element
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+let removedFromMyArray = myArray.pop();
+// Only change code below this line
