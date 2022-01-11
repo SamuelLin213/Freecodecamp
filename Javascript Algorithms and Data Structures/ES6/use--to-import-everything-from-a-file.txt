@@ -1,0 +1,8 @@
+/*you can import all files using "* as" syntax:
+  import * as objName from "./file.js";
+objName can be any name and creates an object that contains all the functions, can access functions just like other objects*/
+import * as stringFunctions from "./string_functions.js";
+// Only change code above this line
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");

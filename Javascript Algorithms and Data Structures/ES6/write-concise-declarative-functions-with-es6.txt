@@ -1,0 +1,14 @@
+/*use keyword function to define functions within objects for ES5
+
+ES6 doesn't need the function and :*/
+
+// Only change code below this line
+const bicycle = {
+  gear: 2,
+  setGear(newGear) {
+    this.gear = newGear;
+  }
+};
+// Only change code above this line
+bicycle.setGear(3);
+console.log(bicycle.gear);

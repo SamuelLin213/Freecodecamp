@@ -1,0 +1,14 @@
+/*Instead of individually destructuring an object to assign its values to variables you can use the ES6 equivalent:
+  const { val1, val2, ...} = objName;*/
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Only change code below this line
+
+const {today, tomorrow} = HIGH_TEMPERATURES;
+
+// Only change code above this line

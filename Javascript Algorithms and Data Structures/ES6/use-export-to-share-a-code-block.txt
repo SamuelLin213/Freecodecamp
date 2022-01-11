@@ -1,0 +1,13 @@
+/*to use function in JS files in other JS files you have to export it, 2 ways of doing so:
+  -export in front of function definition
+  -separate export declaration with functions separated by commas*/
+
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+export {uppercaseString, lowercaseString};

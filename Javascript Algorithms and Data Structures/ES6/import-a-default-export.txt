@@ -1,0 +1,7 @@
+/*to import default exports you need a diff import syntax:
+  import add from "./fileName.js";
+add is just a var name and can be any name*/
+import subtract from "./math_functions.js";
+// Only change code above this line
+
+subtract(7,4);

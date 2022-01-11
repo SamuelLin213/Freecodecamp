@@ -1,0 +1,9 @@
+/*instead of writing redundant object literal definition you can just write the value name*/
+
+const createPerson = (name, age, gender) => ({
+  // Only change code below this line
+    name,
+    age,
+    gender 
+  // Only change code above this line
+});

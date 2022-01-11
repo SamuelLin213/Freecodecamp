@@ -1,0 +1,4 @@
+//can use arrow fnc syntax to write anonymous fncs(i.e. passing fnc as argument to another fnc)
+//{} and return can be omitted if there's only a return value
+
+const magic = () => new Date();

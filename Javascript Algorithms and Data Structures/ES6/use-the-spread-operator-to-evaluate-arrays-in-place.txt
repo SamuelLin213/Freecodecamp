@@ -1,0 +1,11 @@
+//apply() allows you to call method on diff objects
+//Use Math.max.apply(null, arr) to find max of array
+//Have to use apply() since max() expects comma-separated arguments, not an array
+//To deal with this, use the spread operator on the arr w/ Math.max()
+
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [...arr1];  // Change this line
+
+console.log(arr2);

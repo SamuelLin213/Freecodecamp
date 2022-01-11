@@ -1,0 +1,2 @@
+/*Promise is a constructor function created with new and takes a function w/ 2 parameters: resolve and reject, these parameters determine outcome of the promise*/
+const makeServerRequest = new Promise((resolve, reject) => {})

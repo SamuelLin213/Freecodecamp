@@ -1,0 +1,13 @@
+/*Promise has 3 states: pending, fulfilled and rejected
+  resolve used to succeed promise and reject used to fail it, they are methods that take an argument*/
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer represents a response from a server
+  let responseFromServer;
+    
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});

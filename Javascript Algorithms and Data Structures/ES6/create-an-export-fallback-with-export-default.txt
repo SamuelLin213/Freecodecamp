@@ -1,0 +1,5 @@
+/*export default is used to export one value from a file and is used to create a fallback value for a file/module, there should be only 1 export default in each module/file*/
+
+export default function subtract(x, y) {
+  return x - y;
+}
