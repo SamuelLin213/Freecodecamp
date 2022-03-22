@@ -1,0 +1,5 @@
+//instead of * and +, you can use quantity specifiers between {} to specify a range of appearances, put {} range after the character you're looking for
+
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6} no/; // Change this line
+let result = ohRegex.test(ohStr);

@@ -1,0 +1,6 @@
+//regex.test(str) returns whether regex exists in str
+//-regex follows template of /word/
+
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString); // Change this line

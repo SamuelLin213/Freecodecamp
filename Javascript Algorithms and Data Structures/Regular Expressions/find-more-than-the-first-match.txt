@@ -1,0 +1,5 @@
+//the g flag allows you to match/test more than 1 pattern
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/ig; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line

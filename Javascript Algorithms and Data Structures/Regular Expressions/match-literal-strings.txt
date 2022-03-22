@@ -1,0 +1,6 @@
+//regex expressions are case sensitive:
+//  -/hello/ won't find Hello or HELLO
+
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; // Change this line
+let result = waldoRegex.test(waldoIsHiding);

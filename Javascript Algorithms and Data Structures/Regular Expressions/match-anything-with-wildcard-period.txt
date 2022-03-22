@@ -1,0 +1,5 @@
+//the wildcard character . allows you to find any word that has a character in the . location
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Change this line
+let result = unRegex.test(exampleStr);

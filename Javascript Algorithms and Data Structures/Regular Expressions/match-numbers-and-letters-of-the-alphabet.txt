@@ -1,0 +1,5 @@
+//- isn't just limited to letters but also numbers; you can also combine both letters and numbers within the same character set: [a-z0-9]
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/ig; // Change this line
+let result = quoteSample.match(myRegex); // Change this line

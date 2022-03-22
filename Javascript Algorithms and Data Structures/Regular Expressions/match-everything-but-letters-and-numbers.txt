@@ -1,0 +1,6 @@
+//\W lets you search the opposite of \w
+//\W is same as [^A-Za-z0-9_]
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; // Change this line
+let result = quoteSample.match(nonAlphabetRegex).length;

@@ -1,0 +1,6 @@
+//can search for characters outside alphabet and numbers
+//use \s for whitespace(space, carriage return, tab, form feed, new line); similar to [ \r\t\f\n\v]
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; // Change this line
+let result = sample.match(countWhiteSpace);

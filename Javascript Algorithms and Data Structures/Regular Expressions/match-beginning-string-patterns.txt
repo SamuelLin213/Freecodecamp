@@ -1,0 +1,5 @@
+//outside of character sets, ^ can be used to only find patterns when they're at the beginning of the string
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);

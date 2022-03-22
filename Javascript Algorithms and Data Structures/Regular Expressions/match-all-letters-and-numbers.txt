@@ -1,0 +1,6 @@
+//shortcut character classes allow you to specify specific characters as shortcut
+//\w shortcut is the same as [A-Za-z0-9_]
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let result = quoteSample.match(alphabetRegexV2).length;

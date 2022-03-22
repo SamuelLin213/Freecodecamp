@@ -1,0 +1,5 @@
+//if you only want a specific number of matches, specify only 1 number and don't include a comma
+
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // Change this line
+let result = timRegex.test(timStr);

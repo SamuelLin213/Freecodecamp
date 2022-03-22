@@ -1,0 +1,5 @@
+//can match character(s) that appear one or more times in string; use + after character to search for at least 1 appearance
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/ig; // Change this line
+let result = difficultSpelling.match(myRegex);

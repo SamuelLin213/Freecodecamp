@@ -1,0 +1,5 @@
+//sometimes, you only want to specify the lower or upper bound; leave the other number blank
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);

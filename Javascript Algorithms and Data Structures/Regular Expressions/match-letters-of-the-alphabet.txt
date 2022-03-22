@@ -1,0 +1,5 @@
+//instead of typing out all characters in character sets, use the - hyphen to define a range of characters
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; // Change this line
+let result = quoteSample.match(alphabetRegex); // Change this line

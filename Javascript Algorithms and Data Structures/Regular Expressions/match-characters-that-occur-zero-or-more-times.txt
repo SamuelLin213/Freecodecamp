@@ -1,0 +1,7 @@
+//instead of 1 or more times, there's the * option which matches 0 or more times
+
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result = chewieQuote.match(chewieRegex);

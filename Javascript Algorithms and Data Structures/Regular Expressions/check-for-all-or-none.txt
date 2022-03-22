@@ -1,0 +1,5 @@
+//some patterns may have certain characters that may or may not be there(i.e. British v.s. American spellings); use the ? before the unsure character to check for both version of the pattern
+
+let favWord = "favorite";
+let favRegex = /favou?rite/; // Change this line
+let result = favRegex.test(favWord);
