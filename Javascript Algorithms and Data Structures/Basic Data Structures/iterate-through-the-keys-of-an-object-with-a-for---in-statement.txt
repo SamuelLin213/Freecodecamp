@@ -1,0 +1,30 @@
+//use a for...in statement to iterate through the keys of an object
+
+const users = {
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
+}
+
+function countOnline(usersObj) {
+  // Only change code below this line
+  let num = 0;
+  for(let user in usersObj)
+  {
+    //still have to call usersObj when accessing each property
+    if(usersObj[user].online == true)
+    {
+      num += 1;
+    }
+  }
+  return num;
+  // Only change code above this line
+}
+
+console.log(countOnline(users));

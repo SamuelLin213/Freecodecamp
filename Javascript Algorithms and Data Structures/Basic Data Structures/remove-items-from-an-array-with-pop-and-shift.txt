@@ -1,0 +1,10 @@
+//pop() removes element from end while shift() removes from beginning
+//in contrast to their counterpart, pop() and shift() doesn't take arguments and can only remove 1 element at a time
+
+function popShift(arr) {
+  let popped = arr.pop(); // Change this line
+  let shifted = arr.shift(); // Change this line
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));

@@ -1,0 +1,13 @@
+//slice() doesn't modify the array, but copies/extracts the given number of elements to a new array
+//2 parameters:
+//  -starting extraction index
+//  -stopping extraction index: will go up to but doesn't include element at this index
+
+function forecast(arr) {
+  // Only change code below this line
+  let arrNew = arr.slice(2, 4);
+  return arrNew;
+}
+
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));

@@ -1,0 +1,12 @@
+//splice() allows removing of multiple consecutive elements from anywhere in the array
+//splice() takes up to 3 parameters
+//  -first parameter represents first index to start removing from
+//  -second parameter indicates how many elements to delete
+//splice not only removes elements but also returns a new array of the removed elements
+
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+arr.splice(0, 1);
+arr.splice(3);
+// Only change code above this line
+console.log(arr);
