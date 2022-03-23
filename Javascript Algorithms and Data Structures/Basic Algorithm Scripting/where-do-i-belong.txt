@@ -1,0 +1,16 @@
+function getIndexToIns(arr, num) {
+  arr.sort(function(a, b) {
+    return a - b;
+  });
+
+  for(let x = 0; x < arr.length; x++)
+  {
+    if(arr[x] >= num)
+    {
+      return x;
+    }
+  }
+  return arr.length;
+}
+
+getIndexToIns([40, 60], 50);

@@ -1,0 +1,9 @@
+function reverseString(str) {
+  let newStr = "";
+  for(let x = str.length-1; x >= 0; x--)
+  {
+    newStr += str.charAt(x);
+  }
+  return newStr;
+}
+reverseString("hello");

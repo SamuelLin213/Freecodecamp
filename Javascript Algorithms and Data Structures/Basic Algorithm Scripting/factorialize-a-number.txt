@@ -1,0 +1,10 @@
+function factorialize(num) {
+  let factorial = 1;
+  for(let x = num; x > 0; x--)
+  {
+    factorial *= x;
+  }
+  return factorial;
+}
+
+factorialize(5);
