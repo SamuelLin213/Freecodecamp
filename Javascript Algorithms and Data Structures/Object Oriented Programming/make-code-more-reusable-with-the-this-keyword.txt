@@ -1,0 +1,9 @@
+//while you're able to reference object properties with the object name, using this. to access the property supporst any changes to the object name
+
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+};
+
+dog.sayLegs();
