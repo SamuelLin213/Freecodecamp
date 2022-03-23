@@ -1,0 +1,18 @@
+//The second stype in inheritance is setting the prototype of the subtype(child) to be an instance of the supertype
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Dog() { }
+
+// Only change code below this line
+
+
+let beagle = new Dog();
+Dog.prototype = Object.create(Animal.prototype);

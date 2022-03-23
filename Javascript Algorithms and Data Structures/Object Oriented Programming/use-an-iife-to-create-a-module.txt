@@ -1,0 +1,27 @@
+//IIFE is often used to group related functionality together, mixins can be grouped into a module that can be used in other parts of code
+
+let isCuteMixin = function(obj) {
+  obj.isCute = function() {
+    return true;
+  };
+};
+let singMixin = function(obj) {
+  obj.sing = function() {
+    console.log("Singing to an awesome tune");
+  };
+};
+
+let funModule = (function() {
+  return {
+      isCuteMixin: function(obj) {
+      obj.isCute = function() {
+          return true;
+      };
+    },
+      singMixin: function(obj) {
+        obj.sing = function() {
+          console.log("Singing to an awesome tune");
+      };
+    }
+  }
+})();

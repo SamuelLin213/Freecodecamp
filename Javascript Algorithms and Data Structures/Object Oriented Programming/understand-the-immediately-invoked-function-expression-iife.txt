@@ -1,0 +1,5 @@
+//When an anonymous function is declared, the () cause it to be immediately executed; this is known as immediately invoked function expression(IIFE)
+
+(function() {
+  console.log("A cozy nest is ready");
+})();

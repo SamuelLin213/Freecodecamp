@@ -1,0 +1,26 @@
+//There are 2 types of properties: own and prototype;
+//  -obj.hasOwnProperty(prop) determines whether a property of an object is an own property or prototype
+
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
+
+let ownProps = [];
+let prototypeProps = [];
+
+for(let property in beagle)
+{
+  if(beagle.hasOwnProperty(property))
+  {
+    ownProps.push(property);
+  }
+  else {
+    prototypeProps.push(property);
+  }
+}
+
+// Only change code below this line

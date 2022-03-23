@@ -1,0 +1,9 @@
+//Declare property in constructor to make it private and inaccessible outside of the constructor
+
+function Bird() {
+  let weight = 15;
+
+  this.getWeight = function() {
+    return weight;
+  }
+}

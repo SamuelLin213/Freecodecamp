@@ -1,0 +1,16 @@
+//after creating supertype, you can reuse these methods in children objects in what's known as inheritance
+//  -first step is creating an instance of the object: let var = Object.create(obj.prototype); //sets the prototype of obj to var
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+// Only change code below this line
+
+let duck = Object.create(Animal.prototype); // Change this line
+let beagle = Object.create(Animal.prototype); // Change this line

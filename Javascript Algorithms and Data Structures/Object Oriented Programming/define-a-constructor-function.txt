@@ -1,0 +1,10 @@
+//constructor creates new objects and defines properties that belong to the object
+//  -constructors are capitalized to distinguish from regular functions
+//  -the keyword this is used to set the object properties
+//  -Constructors define values rather than return them
+
+function Dog() {
+  this.name = "Max";
+  this.color = "blue";
+  this.numLegs = 4;
+}

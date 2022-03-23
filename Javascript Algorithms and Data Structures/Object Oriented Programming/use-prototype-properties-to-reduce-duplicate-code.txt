@@ -1,0 +1,12 @@
+//to avoid duplicate variables for values that are shared across all all objects, use prototype to indicate shared value, prototype is considered part of constructor
+//object.prototype.property = value
+
+
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+
+// Only change code above this line
+let beagle = new Dog("Snoopy");

@@ -1,0 +1,12 @@
+//the constructor property refers to the constructor function that created the instance; since thie property can be overwritten, it's better to use instanceof
+
+function Dog(name) {
+  this.name = name;
+}
+
+// Only change code below this line
+function joinDogFraternity(candidate) {
+  if(candidate.constructor == Dog)
+    return true;
+  return false;
+}

@@ -1,0 +1,12 @@
+//most objects have prototype and a prototype itself is considered an object, as such it has its own prototype: Object.prototype
+
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // yields true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
