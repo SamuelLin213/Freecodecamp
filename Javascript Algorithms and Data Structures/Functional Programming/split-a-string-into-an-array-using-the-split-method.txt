@@ -1,0 +1,10 @@
+//split() splits string into array of strings, it takes a delimiter as an argument
+
+function splitify(str) {
+  // Only change code below this line
+  return str.split(/\W/); //uses reg expression of any special character
+
+  // Only change code above this line
+}
+
+splitify("Hello World,I-am code");

@@ -1,0 +1,10 @@
+//the every method checks if every element of passes the function and returns true if all values meet the criteria and false otherwise
+
+function checkPositive(arr) {
+  // Only change code below this line
+  return arr.every(curr => curr > 0);
+
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);

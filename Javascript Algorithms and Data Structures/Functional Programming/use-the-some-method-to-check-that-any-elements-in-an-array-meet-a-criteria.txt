@@ -1,0 +1,10 @@
+//the some method checks if any element passes a particular test; returns true if any element passes the criteria
+
+function checkPositive(arr) {
+  // Only change code below this line
+  return arr.some(curr => curr > 0);
+
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);

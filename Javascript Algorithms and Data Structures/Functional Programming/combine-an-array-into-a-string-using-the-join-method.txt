@@ -1,0 +1,12 @@
+//join() method joins elements of array together; takes delimiter as argument
+
+function sentensify(str) {
+  // Only change code below this line
+  let strSplit = str.split(/\W/);
+
+  return strSplit.join(" ");
+
+  // Only change code above this line
+}
+
+sentensify("May-the-force-be-with-you");
