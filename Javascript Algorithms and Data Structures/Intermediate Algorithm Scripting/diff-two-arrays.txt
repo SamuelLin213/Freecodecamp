@@ -1,0 +1,22 @@
+function diffArray(arr1, arr2) {
+  const newArr = [];
+  let arrF = [...arr1], arrS = [...arr2];
+  
+  for(let x = 0; x < arr1.length; x++)
+  {
+    if(arrS.indexOf(arr1[x]) == -1)
+    {
+      newArr.push(arr1[x]);
+    }
+  }
+  for(let y = 0; y < arr2.length; y++)
+  {
+    if(arrF.indexOf(arr2[y]) == -1)
+    {
+      newArr.push(arr2[y]);
+    }
+  }
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);

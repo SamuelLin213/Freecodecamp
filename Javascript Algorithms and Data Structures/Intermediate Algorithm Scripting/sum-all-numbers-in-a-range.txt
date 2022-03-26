@@ -1,0 +1,22 @@
+function sumAll(arr) {
+  let first = arr[0], second = arr[1];
+  let bigger = first > second ? true : false;
+  let sum = 0;
+
+  if(bigger)
+  {
+    for(let x = first; x >= second; x--)
+    {
+      sum += x;
+    }
+  }
+  else {
+    for(let x = first; x <= second; x++)
+    {
+      sum += x;
+    }
+  }
+  return sum;
+}
+
+sumAll([1, 4]);
