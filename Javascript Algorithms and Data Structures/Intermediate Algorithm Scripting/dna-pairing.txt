@@ -1,0 +1,33 @@
+function pairElement(str) {
+  let tempArr = [], result = [];
+
+  for(let x = 0; x < str.length; x++)
+  {
+    if(str.at(x) == 'A')
+    {
+      tempArr[0] = 'A';
+      tempArr.push('T');
+    }
+    else if(str.at(x) == 'T')
+    {
+      tempArr[0] = 'T';
+      tempArr.push('A');
+    }
+    else if(str.at(x) == 'C')
+    {
+      tempArr[0] = 'C';
+      tempArr.push('G');
+    }
+    else if(str.at(x) == 'G')
+    {
+      tempArr[0] = 'G';
+      tempArr.push('C');
+    }
+    result.push(tempArr);
+    tempArr = [];
+  }
+  
+  return result;
+}
+
+console.log(pairElement("GCG"));

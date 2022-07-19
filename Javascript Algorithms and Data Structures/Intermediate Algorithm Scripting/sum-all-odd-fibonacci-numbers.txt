@@ -1,0 +1,18 @@
+function sumFibs(num) {
+  let first = 0, second = 1, temp, sum = 0;
+
+  while(first <= num)
+  {
+    if(first % 2 == 1)
+    {
+      sum += first;
+    }
+    temp = second;
+    second = first + second;
+    first = temp;
+  }
+
+  return sum;
+}
+
+console.log(sumFibs(4));

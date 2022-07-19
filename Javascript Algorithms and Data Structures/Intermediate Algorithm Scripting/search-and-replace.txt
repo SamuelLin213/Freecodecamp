@@ -1,0 +1,14 @@
+function myReplace(str, before, after) {
+  if(before.match(/^[A-Z]/))
+  {
+    let firstChar = after.at(0).toUpperCase();
+    after = firstChar + after.slice(1);
+  }
+  else{
+    let firstChar = after.at(0).toLowerCase();
+    after = firstChar + after.slice(1)
+  }
+  return str.replace(before, after);
+}
+
+console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));

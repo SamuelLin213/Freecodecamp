@@ -1,0 +1,31 @@
+function smallestCommons(arr) {
+  let range = [], small = (arr[0] < arr[1] ? arr[0] : arr[1]), big = (arr[0] > arr[1]) ? arr[0] : arr[1];
+
+  let done = false;
+  let curr, count = 1;
+
+  for(let x = small; x <= big; x++)
+  {
+    range.push(x);
+  }
+
+  while(!done)
+  {
+    curr = big * count;
+    count++;
+
+    done = true;
+    for(let y = 0; y < range.length; y++)
+    {
+      if(curr % range[y] != 0)
+      {
+        done = false;
+        break;
+      }
+    }
+  }
+
+  return curr;
+}
+
+console.log(smallestCommons([1,5]));

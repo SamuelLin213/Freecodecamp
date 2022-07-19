@@ -1,0 +1,12 @@
+function truthCheck(collection, pre) {
+  for(let x = 0; x < collection.length; x++)
+  {
+    if(!Boolean(collection[x][pre]))
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
+truthCheck([{name: "Quincy", role: "Founder", isBot: false}, {name: "Naomi", role: "", isBot: false}, {name: "Camperbot", role: "Bot", isBot: true}], "isBot");

@@ -1,0 +1,19 @@
+function sumPrimes(max) {
+  var sieve = [], i, j, primes = [], sum = 0;
+  for (i = 2; i <= max; ++i) {
+      if (!sieve[i]) {
+          // i has not been marked -- it is prime
+          primes.push(i);
+          for (j = i * 2; j <= max; j += i) {
+              sieve[j] = true;
+          }
+      }
+  }
+  for(let x = 0; x < primes.length; x++)
+  {
+    sum += primes[x];
+  }
+  return sum;
+}
+
+sumPrimes(10);

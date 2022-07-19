@@ -1,0 +1,19 @@
+function addTogether() {
+  let arr = [...arguments];
+
+  if(typeof(arr[0]) !== 'number')
+  {
+    return undefined;
+  }
+  if(arguments.length != 2) // check if second parameter is present
+  {
+    return (second) => addTogether(arr[0], second);
+  }
+  if(typeof(arr[1]) !== 'number')
+  {
+    return undefined;
+  }
+  return arr[0] + arr[1];
+}
+
+console.log(addTogether(2)(3));

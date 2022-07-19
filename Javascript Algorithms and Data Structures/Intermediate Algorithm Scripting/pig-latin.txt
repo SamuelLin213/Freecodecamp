@@ -1,0 +1,12 @@
+function translatePigLatin(str) {
+  if(str.match(/^[aeiou]/))
+  {
+    return str.concat("way");
+  }
+  let conson = str.match(/^[^aeiou]+/)[0];
+
+  return str.slice(conson.length).concat(conson + 'ay');
+  
+}
+
+console.log(translatePigLatin("glove"));

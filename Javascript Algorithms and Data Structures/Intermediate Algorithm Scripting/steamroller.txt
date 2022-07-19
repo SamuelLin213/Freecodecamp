@@ -1,0 +1,22 @@
+function steamrollArray(arr) {
+  let result = [];
+  arrRecur(arr, result);
+
+  return result;
+}
+
+function arrRecur(arr, result)
+{
+  for(let x = 0; x < arr.length; x++)
+  {
+    if(Array.isArray(arr[x]))
+    {
+      arrRecur(arr[x], result);
+    }
+    else{
+      result.push(arr[x]);
+    }    
+  }
+}
+
+console.log(steamrollArray([1, [2], [3, [[4]]]]));
